@@ -1,0 +1,117 @@
+body{
+    background-image: url(../img/imagem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: rgb(167, 167, 167);
+    font-size:larger;
+}
+
+a:hover{
+    color: rgb(170, 22, 22);
+    transition: 0.6s all;
+}
+
+#matricule-se{
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#matricule-se:hover{
+    background-color: rgb(170, 22, 22);
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'poppinsmedium';
+}
+
+span{
+    color: rgb(156, 156, 156);
+}
+
+p{
+    line-height: 26px;
+    max-width: 604px;
+    font-style:normal;
+    font-size: 17px; 
+   
+}
+
+img{
+    width: 598px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="text"]{
+    box-shadow: 3px 3px rgb(94, 92, 92), -1em 0 .4em rgb(94, 92, 92);
+}
+
+form [type="email"]{
+    box-shadow: 3px 3px rgb(94, 92, 92), -1em 0 .4em rgb(94, 92, 92);
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(170, 22, 22);
+    color: white;
+    font-weight: bold;
+}
+
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
